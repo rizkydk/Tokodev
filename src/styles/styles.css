@@ -1,0 +1,235 @@
+.container {
+    padding: 0;
+  }
+
+  .content {
+    position: relative;
+  }
+  
+  
+  /* .title {
+    text-align: center;
+  } */
+
+  .screen1 {
+      display: block;
+      width: 400px;
+      height: 450px;
+      overflow: hidden;
+      position: relative;
+      /* border: 2px solid #b3b3b3; */
+      /* border-radius: 1px; */
+      margin: 0 auto;
+  }
+  .screen1 img {
+      bottom: -920px;
+      width: 100%;
+      height: auto;
+      position: absolute;
+      z-index: 0;
+    margin:0;
+    padding:0;
+      -webkit-transition: top 4s;
+      -moz-transition: top 4s;
+      -ms-transition: top 4s;
+      -o-transition: top 4s;
+      transition: bottom 4s;
+  }
+  .screen1:hover img {
+    bottom: 0;
+    -webkit-transition: all 4s;
+    -moz-transition: all 4s;
+    -ms-transition: all 4s;
+    -o-transition: all 4s;
+    transition: all 4s;
+  }
+
+  .screen2 {
+    display: block;
+    width: 400px;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+    /* border: 2px solid #b3b3b3; */
+    /* border-radius: 1px; */
+    margin: 0 auto;
+}
+.screen2 img {
+    bottom: -250px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 0;
+  margin:0;
+  padding:0;
+    -webkit-transition: top 4s;
+    -moz-transition: top 4s;
+    -ms-transition: top 4s;
+    -o-transition: top 4s;
+    transition: bottom 4s;
+}
+.screen2:hover img {
+  bottom: 0;
+  -webkit-transition: all 4s;
+  -moz-transition: all 4s;
+  -ms-transition: all 4s;
+  -o-transition: all 4s;
+  transition: all 4s;
+}
+.screen3 {
+  display: block;
+  width: 400px;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  /* border: 2px solid #b3b3b3; */
+  /* border-radius: 1px; */
+  margin: 0 auto;
+}
+.screen3 img {
+  bottom: 150px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 0;
+margin:0;
+padding:0;
+  -webkit-transition: top 4s;
+  -moz-transition: top 4s;
+  -ms-transition: top 4s;
+  -o-transition: top 4s;
+  transition: bottom 4s;
+}
+.screen3:hover img {
+bottom: 0;
+-webkit-transition: all 4s;
+-moz-transition: all 4s;
+-ms-transition: all 4s;
+-o-transition: all 4s;
+transition: all 4s;
+}
+.screen4 {
+  display: block;
+  width: 400px;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  /* border: 2px solid #b3b3b3; */
+  /* border-radius: 1px; */
+  margin: 0 auto;
+}
+.screen4 img {
+  bottom: -3085px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 0;
+margin:0;
+padding:0;
+  -webkit-transition: top 4s;
+  -moz-transition: top 4s;
+  -ms-transition: top 4s;
+  -o-transition: top 4s;
+  transition: bottom 4s;
+}
+.screen4:hover img {
+bottom: 0;
+-webkit-transition: all 4s;
+-moz-transition: all 4s;
+-ms-transition: all 4s;
+-o-transition: all 4s;
+transition: all 4s;
+}
+.screen5 {
+  display: block;
+  width: 400px;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  /* border: 2px solid #b3b3b3; */
+  /* border-radius: 1px; */
+  margin: 0 auto;
+}
+.screen5 img {
+  bottom: -2790px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 0;
+margin:0;
+padding:0;
+  -webkit-transition: top 4s;
+  -moz-transition: top 4s;
+  -ms-transition: top 4s;
+  -o-transition: top 4s;
+  transition: bottom 4s;
+}
+.screen5:hover img {
+bottom: 0;
+-webkit-transition: all 4s;
+-moz-transition: all 4s;
+-ms-transition: all 4s;
+-o-transition: all 4s;
+transition: all 4s;
+}
+.screen6 {
+  display: block;
+  width: 400px;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  /* border: 2px solid #b3b3b3; */
+  /* border-radius: 1px; */
+  margin: 0 auto;
+}
+.screen6 img {
+  bottom: 80px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 0;
+margin:0;
+padding:0;
+  -webkit-transition: top 4s;
+  -moz-transition: top 4s;
+  -ms-transition: top 4s;
+  -o-transition: top 4s;
+  transition: bottom 4s;
+}
+.screen6:hover img {
+bottom: 0;
+-webkit-transition: all 4s;
+-moz-transition: all 4s;
+-ms-transition: all 4s;
+-o-transition: all 4s;
+transition: all 4s;
+}
+
+/* .imagehide {
+  display: none;
+} */
+
+.contentwhat{
+text-align: center;
+}
+
+/* .myDIV:hover +  {
+  display: block;
+  color: red;
+} */
+
+/* .contentwhat:hover + .imagehide{
+/* background-color: #6c6ec561; */
+/* display: block; */
+/* } */ 
+
+.contentwhat:hover{
+  /* opacity: 0.6; */
+  transform: scale(1.15);
+  transition-duration: 0.3;
+  
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

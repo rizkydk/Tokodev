@@ -1,0 +1,36 @@
+.social-media {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    padding-top: 7%;
+  }
+  .icon-circle{
+    color: rgba(0, 0, 0, 0.948);
+    display: flex;
+    flex: 0 1 40px;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 50%;
+    transition: .3S all ease-in-out;
+
+    &:hover{
+    background: #00000033;       
+
+    } 
+    
+    .fa{
+        font-size: 25px;
+
+    }
+  }
+
+//   .bck-home{
+//     padding-top:7%;
+//     border-color: blue;
+//     border-radius: 10%;
+    
+//     display: flex;
+//     flex: 0 1 40px;
+//     border: solid;
+//   }
